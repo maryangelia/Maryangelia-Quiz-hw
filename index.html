@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Web API Quiz</title>
+</head>
+<body>
+    This link redirects you to the highest scores you can recieve
+    <a href="highscores.html">high scores</a>
+<div class=" table of content">
+<div class="contentHeaders">
+    Maryangelia Quiz Game 
+    </div>
+    <div class=“Quiz body”>
+
+
+
+        <div class=“container”>
+  
+          <h1 class=“Maryangelia Quiz>Take a Quiz!</h1>
+  
+          <br>
+  
+          <div>
+            <button id="blueberry" onclick="checkAnswer ('A')">blueberry/button>
+           </div>
+            <div>
+                <button id="strawberry" onclick="checkAnswer ('B')">strawberry</button>
+            </div>
+            <div>
+                <button id="mango" onclick="checkAnswer ('C')">mango</button>
+            </div>
+            <div>
+                <button id="cherry" onclick="checkAnswer ('D')">cherry</button>
+            </div>
+        
+  
+          <div class="alert alert-dark" id="answer-quality" role="alert">
+  
+            
+  
+          </div>
+  
+          <p></p>
+  
+          <p class="lead">
+  
+            <a class="btn btn-primary .mx-auto float-left" id="right-button" role="button">Right Answer</a>
+  
+            <h2>Time Left:  <span class="badge badge-secondary" id="time-display">...</span></h2>
+  
+            <a class="btn btn-danger .mx-auto float-right" id="wrong-button" role="button">Wrong Answer</a>
+  
+          </p>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+    <script src="./program.js"></script>
+  
+  </body>
+  
+  </html>
+  
+
+    
+</div>
+
+
+</body>
+</html>
